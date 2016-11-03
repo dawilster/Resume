@@ -109,6 +109,7 @@ The backbone of all our backend applications at Papercloud. It’s responsible f
 EDUCATION
 ----------
 **Bachelor of Computer** - ( 2012 - 2016 )
+
 *RMIT (Melbourne, Australia)*
 
 A FEW SKILLS I KNOW 
