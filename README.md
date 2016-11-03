@@ -1,6 +1,9 @@
 **William Porter**
 ==============
-A little brief description about myself
+To get to know me as a dev it would probably help to here about my typical stack. I specialise in building apps built in Rails and Ember.js. I've built in APIs to back Ember.js, iOS and Android application. And I've built funky and fluid single page apps in Ember. 
+We deployed all our apps to AWS **EC2**, backed it with **PostgreSQL** RDS and cache it with **Redis** ElastiCache.
+
+Other than that I've been in the tech space for almost 5 years now, I'm an avid traveller (I'm currently calling Toronto home) and learn through the people around me and my experiences. 
 
 LINKS
 ----------
@@ -35,8 +38,11 @@ SOME PAST WORK
 
 THINGS OF NOTE
 ----------
-I breath **Test Driven Development**
-[Source File](https://github.com/Papercloud/social_auth/blob/master/spec/models/service_spec.rb)
+I breath **Test Driven Development** All my Ruby development begins with test cases.  
+Some testing tools I couldn't live without **RSpec, FactoryGirl and VCR** 
+
+[Source File - service.rb](https://github.com/Papercloud/social_auth/blob/master/spec/models/service_spec.rb)
+
 ```ruby
 describe "self.create_with_request" do
   def valid_service_from_request
@@ -61,11 +67,10 @@ describe "self.create_with_request" do
   end
 end
 ```
-Some testing tools I couldn't live without **RSpec, FactoryGirl and VCR** 
 
 **Commit messages are the best!**
 They're are best tool in communicating to future developers and even ourselves why we did what we did. 
-Plus it makes reviewing Pull Requests a dream. 
+Plus it makes reviewing Pull Requests a dream!
 
 ```
 commit 24fe6f54646af6dc9cdea7beffe90ce712c36c74
