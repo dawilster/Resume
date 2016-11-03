@@ -35,9 +35,64 @@ SOME PAST WORK
 
 THINGS OF NOTE
 ----------
-	- I love to use TDD
-	- commit messages are important
-	
+I breath **Test Driven Development**
+[Source File](https://github.com/Papercloud/social_auth/blob/master/spec/models/service_spec.rb)
+```ruby
+describe "self.create_with_request" do
+  def valid_service_from_request
+    Service.create_with_request("1", @user, "Authenticated",{access_token: "access_token"})
+  end
+
+  it "creates an Authenticated method service if remote id doesn't exist" do
+    expect{
+      valid_service_from_request
+    }.to change(Service, :count).by(1)
+  end
+
+  it "Can create a connected service even if an authenticated service belonging to another user already exists" do
+    service = Service.create(access_token: {access_token: "access_token"}, remote_id: "1", user: User.create, method: "Authenticated")
+    expect{
+      Service.create_with_request("1", @user, "Connected", {access_token: "access_token"})
+    }.to change(Service, :count).by(1)
+  end
+
+  it "creates service with type set to authenticated" do
+    expect(valid_service_from_request.method).to eq "Authenticated"
+  end
+end
+```
+Some testing tools I couldn't live without **RSpec, FactoryGirl and VCR** 
+
+**Commit messages are the best!**
+They're are best tool in communicating to future developers and even ourselves why we did what we did. 
+Plus it makes reviewing Pull Requests a dream. 
+
+```
+commit 24fe6f54646af6dc9cdea7beffe90ce712c36c74
+
+  Move pickCollection out of afterModel()
+
+  Not necessary since no promises are returned. Initial reasoning was that the pickCollection was persisted before the controller was loaded but works fine with only pushing the pickCollection to the backend once picks have been created.
+
+commit 5dd58061ea58cb247c7bdae91a2901380e7de4dc
+
+  Not necessary since no promises are returned. 
+
+  Initial reasoning was that the pickCollection was persisted before the controller was loaded but works fine with only pushing the pickCollection to the backend once picks have been created.
+
+commit 5dd58061ea58cb247c7bdae91a2901380e7de4dc
+
+  Fix comparison order error
+
+  Was calling interactWithEvent before checking subEvent was nil. So essentially passing a null event all the time
+
+commit 737956f1d9cc714c2a74f608db1656719cf6d7f1
+
+  Override save() instead of implementing an additional commit() method
+
+  This way future saves won't have to apply the new commit() method
+```
+
 CODE I'M PROUD OF
 ----------
 **social_auth** - [Github Repo](https://github.com/Papercloud/social_auth)
