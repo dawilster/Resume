@@ -36,6 +36,9 @@ SOME PAST WORK
 
 [**My Healthy Travel**](myhealthytravel.com.au): Had the amazing opportunity to spearhead development on a web application in Ember.js. The framework is great example of frontend development done right, the testing framework and the ease that you could mock API endpoints increased productivity immensely.
 
+![](https://thumbs.gfycat.com/RewardingSoftBluet-size_restricted.gif)
+
+
 THINGS OF NOTE
 ----------
 I breath **Test Driven Development**. All my Ruby development begins with test cases.  
