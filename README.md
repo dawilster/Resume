@@ -32,7 +32,7 @@ Had the opportunity to work for myself building a large amount of quality HTML t
 
 SOME PAST WORK
 ----------
-[**NBC MatchMaker**](https://itunes.apple.com/us/app/nbc-sports-matchmaker/id952349002?mt=8): Built and optimized a backend stack that supports both our iOS and Android apps which has now grown to over 30,000 users. Was built with scale in mind, endpoints were properly speed and load tested. And utilized Redis as our memcache to improve load times. 
+[**NBC MatchMaker**](https://itunes.apple.com/us/app/nbc-sports-matchmaker/id952349002?mt=8): Built and optimized a backend stack that supports both our iOS and Android apps which at it's peak was supporting over 30,000 users. Was built with scale in mind, endpoints were properly speed and load tested. And utilized Redis as our memcache to improve load times. 
 
 [**My Healthy Travel**](myhealthytravel.com.au): Had the amazing opportunity to spearhead development on a web application in Ember.js. The framework is great example of frontend development done right, the testing framework and the ease that you could mock API endpoints increased productivity immensely.
 
