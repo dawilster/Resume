@@ -3,7 +3,7 @@
 To get to know me as a dev it would probably help to here about my typical stack. I specialise in building apps built in Rails and Ember.js. I've built in APIs to back Ember.js, iOS and Android application. And I've built funky and fluid single page apps in Ember. 
 We deployed all our apps to AWS **EC2**, backed it with **PostgreSQL** RDS and cache it with **Redis** ElastiCache.
 
-Other than that I've been in the tech space for almost 5 years now, I'm an avid traveller (I'm currently calling Toronto home) and learn through the people around me and my experiences. 
+Other than that I've been in the tech space for almost 6 years now, I'm an avid traveller (I'm currently calling Toronto home) and learn through the people around me and my experiences. 
 
 LINKS
 ----------
