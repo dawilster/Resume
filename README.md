@@ -38,7 +38,7 @@ SOME PAST WORK
 
 THINGS OF NOTE
 ----------
-I breath **Test Driven Development** All my Ruby development begins with test cases.  
+I breath **Test Driven Development**. All my Ruby development begins with test cases.  
 Some testing tools I couldn't live without **RSpec, FactoryGirl and VCR** 
 
 [Source File - service.rb](https://github.com/Papercloud/social_auth/blob/master/spec/models/service_spec.rb)
@@ -108,7 +108,7 @@ The backbone of all our backend applications at Papercloud. It’s responsible f
 
 EDUCATION
 ----------
-**Bachelor of Computer** - ( 2011 - 2016 )
+**Bachelor of Computer** - ( 2012 - 2016 )
 *RMIT (Melbourne, Australia)*
 
 A FEW SKILLS I KNOW 
