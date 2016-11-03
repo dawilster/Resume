@@ -16,13 +16,13 @@ EXPERIENCE
 
 > **Senior Full Stack Developer**
 
-Imagine fantasy league but for reality television. Built on a Rails/Ember stack I had the opportunity to deep dive into both frameworks and oversee a small team. In a small amount of time we were able to build out a killer new feature at the same time optimising and scaling the existing codebase and infrastructure.
+Imagine fantasy league but for reality television. Built on a Rails/Ember stack I had the opportunity to deep dive into both frameworks and oversee a small team. In a small amount of time we were able to build out a killer new feature at the same time optimising and scaling the existing codebase and infrastructure. But it was such a great experience to be amongst that startup culture. 
 
 2013 - 2016 - [Papercloud](https://www.papercloud.com.au)
 
 > **Software Developer**
 
-Ruby/Javascript developer. Working for an agency I got to work on a variety of small to large scale projects. Developed primarily backend API’s as well as front end web applications. But had a lot of exposure to a variety of software ranging from Ember.js to iOS.
+Ruby/Javascript developer. Working for an agency I got to work on a variety of small to large scale projects. Developed primarily backend API’s as well as front end web applications. But had a lot of exposure to a variety of software ranging from Ember.js to iOS. It's where I matured as a developer and it's where I built a lot of my confidence from. 
 
 2010 - 2012 - [PSDtoBootstrap](https://www.psdtobootstrap.com)
 
