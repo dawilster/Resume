@@ -3,7 +3,10 @@
 To get to know me as a dev it would probably help to here about my typical stack. I specialise in building apps built in Rails and Ember.js. I've built in APIs to back Ember.js, iOS and Android application. And I've built funky and fluid single page apps in Ember. 
 We deployed all our apps to AWS EC2, backed it with PostgreSQL and cache with Redis.
 
-Other than that I've been in the tech space for almost 6 years now, I'm an avid traveller (I'm currently calling Toronto home) and learn through the people around me and my experiences. 
+I'm also an avid traveller. I love experiencing new places and the people I come across. It's counted towards a lot of my personal growth which I think my professional life has definitely benefited from. 
+
+I'm on the tail end of a 9 month trip where I spent sometime in Costa Rica recharging my batteries, a short working stint in New York and Toronto where I've been contracting/freelancing for the past 7 months. 
+Check out my Instagram [@dawilster](https://www.instagram.com/dawilster/) for some of my holiday snaps :)
 
 LINKS
 ----------
@@ -37,6 +40,14 @@ SOME PAST WORK
 [**My Healthy Travel**](myhealthytravel.com.au): Had the amazing opportunity to spearhead development on a web application in Ember.js. The framework is great example of frontend development done right, the testing framework and the ease that you could mock API endpoints increased productivity immensely.
 
 ![](https://thumbs.gfycat.com/RewardingSoftBluet-size_restricted.gif)
+
+CODE I'M PROUD OF
+----------
+**social_auth** - [Github Repo](https://github.com/Papercloud/social_auth)
+ Login with FB/Twitter/G+ was such a recurring feature over all our iOS/Android but we didn’t have a common standard to use across all our API. Each time we were essentially rewriting both Rails and iOS to do the samething.
+
+**notify_user** - [Github Repo](https://github.com/Papercloud/notify_user)
+The backbone of all our backend applications at Papercloud. It’s responsible for managing/sending notifications (web/apns/gcm) to all our users. In use in applications with over 200,000 users. Also handles all our notification aggregation. 
 
 
 THINGS OF NOTE
@@ -100,14 +111,6 @@ commit 737956f1d9cc714c2a74f608db1656719cf6d7f1
 
   This way future saves won't have to apply the new commit() method
 ```
-
-CODE I'M PROUD OF
-----------
-**social_auth** - [Github Repo](https://github.com/Papercloud/social_auth)
- Login with FB/Twitter/G+ was such a recurring feature over all our iOS/Android but we didn’t have a common standard to use across all our API. Each time we were essentially rewriting both Rails and iOS to do the samething.
-
-**notify_user** - [Github Repo](https://github.com/Papercloud/notify_user)
-The backbone of all our backend applications at Papercloud. It’s responsible for managing/sending notifications (web/apns/gcm) to all our users. In use in applications with over 200,000 users. Also handles all our notification aggregation. 
 
 EDUCATION
 ----------
