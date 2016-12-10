@@ -52,8 +52,8 @@ The backbone of all our backend applications at Papercloud. It’s responsible f
 
 THINGS OF NOTE
 ----------
-I breath **Test Driven Development**. All my Ruby development begins with test cases.  
-Some testing tools I couldn't live without **RSpec, FactoryGirl and VCR** 
+I practice **Test Driven Development**. It's a great way to tackle a problem and builds code confidence when dealing with complex use cases. 
+Some testing tools I use on a daily basis. **RSpec, FactoryGirl and VCR** 
 
 [Source File - service.rb](https://github.com/Papercloud/social_auth/blob/master/spec/models/service_spec.rb)
 
